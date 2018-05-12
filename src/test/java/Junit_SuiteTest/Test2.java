@@ -13,13 +13,13 @@ public class Test2 {
 	public static void beforeClass() {
 		System.setProperty("webdriver.chrome.driver", "E:\\\\Documents\\\\SelfLearning\\\\Selenium\\\\chromedriver_win32\\\\chromedriver.exe");
 		driver = new ChromeDriver();
-		System.out.println("before class");
+		System.out.println("before class 1");
 		driver.get(url);
 		driver.quit();
 	}
 	
 	@Test
 	public void test2() {
-		System.out.println("22");
+		System.out.println("2");
 	}
 }
