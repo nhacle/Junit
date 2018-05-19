@@ -11,7 +11,7 @@ public class ExecutionProcedureJunit {
 	//execute only once, in the starting 
 	   @BeforeClass
 	   public static void beforeClass() {
-	      System.out.println("in before class");
+	      System.out.println("in before class: nguyennhac");
 	   }
 
 	   //execute only once, in the end
